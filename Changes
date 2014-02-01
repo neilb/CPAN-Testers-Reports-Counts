@@ -1,5 +1,9 @@
 Revision history for Perl module CPAN::Testers::Reports::Counts
 
+0.02 2014-02-01
+    - Bumped min perl to 5.8.0, as use of Internals::SvREADONLY requires it
+      (and submitted a pull request to Perl::MinimumVersion to fix that :-)
+
 0.01 2014-01-29
     - Initial release to CPAN
 

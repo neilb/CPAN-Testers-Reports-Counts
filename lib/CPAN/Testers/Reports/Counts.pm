@@ -2,7 +2,7 @@ package CPAN::Testers::Reports::Counts;
 # ABSTRACT: counts of CPAN Testers reports by month or year
 use strict;
 use warnings;
-use 5.006;
+use 5.008;
 
 use parent 'Exporter';
 use Net::HTTP::Tiny qw(http_get);
