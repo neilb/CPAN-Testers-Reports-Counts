@@ -2,9 +2,9 @@
 
 use strict;
 use warnings;
-use utf8;
+use lib './t/lib';
 
-use LWP::Online ':skip_all';
+use CPAN::Testers::Reports::Counts::TestWrapper;
 use Test::More 0.88 tests => 6;
 use CPAN::Testers::Reports::Counts qw(reports_counts_by_month);
 
