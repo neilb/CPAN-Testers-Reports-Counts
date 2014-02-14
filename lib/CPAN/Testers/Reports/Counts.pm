@@ -143,6 +143,12 @@ have been submitted. The months are in the format 'YYYY-MM'.
  $counts = reports_counts_by_month();
  print "Dec 2013 = $counts->{'2013-12'}->{REPORTS}\n";
 
+=head1 SEE ALSO
+
+L<CPAN Testers Statistics|http://stats.cpantesters.org>,
+L<CPAN Testers wiki|http://wiki.cpantesters.org/wiki/Reports>.
+L<CPAN::Testers::Data::Generator> - a module used to download and summarize CPAN Testers data.
+
 =head1 REPOSITORY
 
 L<https://github.com/neilbowers/CPAN-Testers-Reports-Counts>
