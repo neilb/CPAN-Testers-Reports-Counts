@@ -63,15 +63,15 @@ sub _lock_data
 
 sub reports_counts_by_month
 {
+    _initialise() if not defined($reports_by_month);
     return $reports_by_month;
 }
 
 sub reports_counts_by_year
 {
+    _initialise() if not defined($reports_by_year);
     return $reports_by_year;
 }
-
-_initialise();
 
 1;
 

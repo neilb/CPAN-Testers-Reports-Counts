@@ -1,5 +1,9 @@
 Revision history for Perl module CPAN::Testers::Reports::Counts
 
+0.04 2014-02-14
+    - Lazy loading of the data from CPAN Testers. The site was recently
+      down, and all the test runs failed because of the require test.
+
 0.03 2014-02-10
     - Stopped using LWP::Online in the tests (occasional failures from
       CPAN Testers website were causing failing tests) and instead
