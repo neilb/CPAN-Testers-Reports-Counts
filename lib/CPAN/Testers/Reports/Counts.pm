@@ -1,4 +1,5 @@
 package CPAN::Testers::Reports::Counts;
+
 # ABSTRACT: counts of CPAN Testers reports by month or year
 use strict;
 use warnings;
@@ -151,7 +152,7 @@ L<CPAN::Testers::Data::Generator> - a module used to download and summarize CPAN
 
 =head1 REPOSITORY
 
-L<https://github.com/neilbowers/CPAN-Testers-Reports-Counts>
+L<https://github.com/neilb/CPAN-Testers-Reports-Counts>
 
 =head1 AUTHOR
 

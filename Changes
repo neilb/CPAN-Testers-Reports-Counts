@@ -1,5 +1,8 @@
 Revision history for Perl module CPAN::Testers::Reports::Counts
 
+0.05 2015-10-27
+    - Updated github repo URL after changing my github username
+
 0.04 2014-02-14
     - Lazy loading of the data from CPAN Testers. The site was recently
       down, and all the test runs failed because of the require test.
