@@ -83,9 +83,9 @@ CPAN::Testers::Reports::Count - counts of CPAN Testers reports by month or year
 =head1 SYNOPSIS
 
  use CPAN::Testers::Reports::Counts ':all';
- 
+
  $counts = reports_counts_by_year();
- 
+
  foreach my $year (sort keys %$counts) {
      print "$year:\n";
      foreach my $category (qw(REPORTS PASS FAIL NA UNKNOWN)) {
